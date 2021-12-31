@@ -3,7 +3,7 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "activeresource", "~> 5.1"
+gem "activeresource", git: 'https://github.com/RYLabs/activeresource', branch: "master"
 
 group :docs, optional: true do
   gem "jekyll"
