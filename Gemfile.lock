@@ -12,7 +12,6 @@ PATH
   remote: .
   specs:
     shopify_api (9.5)
-      activeresource
       graphql-client
       rack
 
